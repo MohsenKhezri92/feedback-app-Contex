@@ -1,4 +1,6 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+
 
 function Header({text}) {
   return (
@@ -10,4 +12,13 @@ function Header({text}) {
   )
 }
 
+Header.defaultProps = {
+    text: 'Feedback UI',
+}
+
+Header.PropTypes ={
+    text: PropTypes.string,
+}
+
 export default Header
+ 
