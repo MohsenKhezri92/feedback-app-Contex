@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import FeedbackItem from "./components/FeedbackItem";
 
 function App() {
   const Name = "Mohsen";
@@ -6,9 +7,8 @@ function App() {
   return (
     <>
       <Header text="Feedback UI" />
-      <div className="App">
-        <header className="App-header">Mohsen Xizri</header>
-        <body></body>
+      <div className="container">
+        <FeedbackItem />
       </div>
     </>
   );
