@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-      <Header text="Header Text" />
+      <Header text="Feedback UI" />
       <div className="App">
         <header className="App-header">Mohsen Xizri</header>
         <body></body>
