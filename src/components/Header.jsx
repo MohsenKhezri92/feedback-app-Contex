@@ -23,7 +23,7 @@ Header.defaultProps = {
     textColor: '#ff6a95',
 }
 
-Header.PropTypes ={
+Header.PropType ={
     text: PropTypes.string,
     bgColor: PropTypes.string,
     textColor: PropTypes.string,
@@ -31,4 +31,3 @@ Header.PropTypes ={
 }
 
 export default Header
- 
