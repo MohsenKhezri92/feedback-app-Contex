@@ -17,7 +17,7 @@ function Card({ children, reverse }) {
             {children}
         </div>
     );
-}
+} 
 
 Card.defaultProps = {
     reverse: false,
